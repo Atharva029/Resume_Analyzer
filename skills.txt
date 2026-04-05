@@ -1,0 +1,361 @@
+Python
+Java
+C++
+JavaScript
+HTML
+CSS
+React
+Node.js
+Flask
+Django
+MySQL
+PostgreSQL
+MongoDB
+AWS
+Azure
+Docker
+Kubernetes
+Machine Learning
+Data Science
+NLP
+Git
+GitHub
+CI/CD
+Linux
+REST API
+Microservices
+TensorFlow
+PyTorch
+Scikit-learn
+Excel
+SQL
+SQL Server
+Oracle
+Spring Boot
+Angular
+Vue.js
+TypeScript
+Swift
+Kotlin
+C#
+PHP
+Ruby
+Go
+Rust
+Unit Testing
+Selenium
+Jenkins
+Terraform
+Ansible
+Redux
+GraphQL
+Redis
+Elasticsearch
+RabbitMQ
+Kafka
+Postman
+Jupyter Notebooks
+Pandas
+NumPy
+Matplotlib
+Scrapy
+PySpark
+Spark
+R
+Tableau
+Power BI
+BigQuery
+Redshift
+Snowflake
+SageMaker
+Lambda
+EC2
+S3
+RDS
+DynamoDB
+Route 53
+CloudFront
+CloudWatch
+IAM
+VPC
+ELB
+CloudFormation
+Fargate
+Glue
+Kinesis
+Step Functions
+SNS
+SQS
+Amplify
+App Runner
+CloudTrail
+Config
+Secrets Manager
+Certificate Manager
+Route53
+API Gateway
+Elastic Beanstalk
+LightSail
+Batch
+CloudSearch
+DocumentDB
+ElastiCache
+FSx
+MemoryDB
+Neptune
+WorkSpaces
+AppStream
+Global Accelerator
+Shield
+WAF
+Firewall Manager
+Artifact
+Inspector
+KMS
+Resource Access Manager
+Security Hub
+Macie
+GuardDuty
+Detective
+Audit Manager
+Cognito
+Pinpoint
+SES
+Pinpoint
+AppFlow
+EventBridge
+App Mesh
+X-Ray
+Quicksight
+AppSync
+Cloud9
+CodeBuild
+CodeCommit
+CodeDeploy
+CodePipeline
+CodeArtifact
+CodeGuru
+CloudShell
+Service Catalog
+Systems Manager
+Trusted Advisor
+Personalize
+Forecast
+Polly
+Rekognition
+Textract
+Transcribe
+Translate
+Comprehend
+Lex
+Kendra
+DeepLens
+Ground Station
+Braket
+Boto3
+PyMySQL
+SQLAlchemy
+Marshmallow
+BeautifulSoup
+Requests
+NLTK
+SpaCy
+TextBlob
+GenSIM
+OpenCV
+Pillow
+Arrow
+Click
+Celery
+Peewee
+Waitress
+Gunicorn
+Uvicorn
+FastAPI
+Sanic
+Tornado
+Twisted
+Scrapy
+LXML
+PyYAML
+SimpleJSON
+Marshmallow
+Click
+Loguru
+Structlog
+Prometheus
+Grafana
+Datadog
+Sentry
+New Relic
+Splunk
+ELK Stack
+Jira
+Confluence
+Trello
+Slack
+Teams
+Zoom
+Agile
+Scrum
+Kanban
+SDLC
+TDD
+BDD
+DDD
+OOP
+Functional Programming
+Reactive Programming
+Event Driven Architecture
+Serverless
+Micro-frontends
+JAMstack
+Headless CMS
+SEO
+SEM
+Digital Marketing
+Social Media Marketing
+Content Writing
+Copywriting
+Graphic Design
+UI Design
+UX Design
+Product Management
+Project Management
+Business Analysis
+Financial Analysis
+Market Research
+Strategic Planning
+Leadership
+Communication
+Problem Solving
+Teamwork
+Adaptability
+Time Management
+Critical Thinking
+Emotional Intelligence
+Negotiation
+Presentation Skills
+Public Speaking
+Active Listening
+Conflict Resolution
+Empathy
+Creativity
+Innovation
+Collaboration
+Work Ethic
+Interpersonal Skills
+Organization
+Attention to Detail
+Hard Working
+Punctual
+Reliable
+Motivated
+Professionalism
+Decision Making
+Strategic Thinking
+Analytical Skills
+Integrity
+Confidentiality
+Multi-tasking
+Customer Service
+Client Relations
+Networking
+Data Entry
+Administration
+Office Support
+Reception
+Bookkeeping
+Inventory Management
+Scheduling
+Travel Coordination
+Event Planning
+Quality Assurance
+Technical Support
+Help Desk
+Cloud Computing
+Cybersecurity
+Ethic Hacking
+Network Security
+Information Security
+Database Administration
+System Administration
+DevOps
+Site Reliability Engineering
+Data Engineering
+Data Architecture
+Solution Architecture
+Software Engineering
+Frontend Development
+Backend Development
+Full Stack Development
+Mobile Development
+iOS Development
+Android Development
+Game Development
+Embedded Systems
+Firmware Development
+Hardware Engineering
+Robotics
+Internet of Things
+Blockchain
+Smart Contracts
+Ethereum
+Solidity
+Web3
+Cryptocurrency
+FinTech
+HealthTech
+EdTech
+PropTech
+AdTech
+Ecommerce
+Retail
+Finance
+Healthcare
+Energy
+Manufacturing
+Transportation
+Logistics
+Real Estate
+Education
+Entertainment
+Media
+Hospitality
+Tourism
+Non-profit
+Government
+Legal
+Automotive
+Aerospace
+Defense
+Security
+Telecommunications
+Insurance
+Construction
+Agriculture
+Mining
+Fisheries
+Forestry
+Utilities
+Public Services
+Social Work
+Personal Services
+Repair and Maintenance
+Wholesale Trade
+Retail Trade
+Information
+Professional
+Scientific
+Technical Services
+Management of Companies and Enterprises
+Administrative and Support
+Waste Management and Remediation Services
+Educational Services
+Health Care and Social Assistance
+Arts
+Entertainment
+and Recreation
+Accommodation and Food Services
+Other Services (except Public Administration)
+Public Administration

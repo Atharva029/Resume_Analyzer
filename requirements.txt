@@ -1,0 +1,5 @@
+flask
+pdfplumber
+pymysql
+boto3
+python-dotenv

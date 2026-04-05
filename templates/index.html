@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Resume Analyzer | Mini ATS</title>
+    <!-- Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <i class="fas fa-file-invoice"></i>
+                <h1>Smart Resume <span>Analyzer</span></h1>
+            </div>
+            <p class="subtitle">Elevate your carrier with instant AI-driven insights.</p>
+        </header>
+
+        <!-- Main Card -->
+        <main class="glass-card">
+            <section id="upload-section">
+                <div class="upload-area" id="drop-area">
+                    <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h2>Upload your Resume</h2>
+                    <p>Support Only PDF Files (Max 10MB)</p>
+                    <input type="file" id="resume-input" accept="application/pdf" hidden>
+                    <button class="btn btn-primary" onclick="document.getElementById('resume-input').click()">
+                        Select PDF
+                    </button>
+                    <div id="file-info" class="file-info"></div>
+                </div>
+                <div class="action-bar">
+                    <button id="analyze-btn" class="btn btn-success" disabled>
+                        Analyze Resume
+                    </button>
+                </div>
+            </section>
+
+            <!-- Loading Indicator -->
+            <section id="loading-section" class="hidden">
+                <div class="loader-container">
+                    <div class="loader"></div>
+                    <p>Analyzing your resume...</p>
+                    <small>Extracting text & matching skills</small>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="result-section" class="hidden">
+                <div class="result-header">
+                    <h2>Analysis Results</h2>
+                    <button class="btn btn-outline" onclick="resetUI()">Upload New</button>
+                </div>
+
+                <div class="result-grid">
+                    <!-- Score Card -->
+                    <div class="result-card score-card">
+                        <h3>Overall Match</h3>
+                        <div class="score-circle">
+                            <span id="res-score">0</span>
+                            <small>%</small>
+                        </div>
+                        <div class="progress-container">
+                            <div id="score-bar" class="progress-bar"></div>
+                        </div>
+                        <p id="res-feedback" class="feedback-msg"></p>
+                    </div>
+
+                    <!-- Stats Card -->
+                    <div class="result-card stats-card">
+                        <div class="stat-item">
+                            <span class="stat-label">Word Count</span>
+                            <span id="res-wordcount" class="stat-value">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">File Name</span>
+                            <span id="res-filename" class="stat-value">resume.pdf</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Found -->
+                <div class="results-columns">
+                    <div class="skills-container">
+                        <h3>Detected Skills</h3>
+                        <div id="skills-list" class="skills-list"></div>
+                    </div>
+                    <div class="skills-container missing-skills">
+                        <h3>Recommended to Add</h3>
+                        <div id="missing-skills-list" class="skills-list"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Smart Resume Analyzer. AWS Ready & Production Optimized.</p>
+        </footer>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
